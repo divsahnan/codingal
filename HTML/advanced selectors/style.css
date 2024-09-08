@@ -1,0 +1,32 @@
+body {
+    font-family:'Arial';
+    background-color:lightpink;
+    }
+
+h1 {
+    color:red;
+}  
+
+a:hover {
+    color:red;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color:blue;
+}
+
+li:nth-child(3) {
+ background-color: teal;
+}
+
+p:not(:first-of-type) {
+ text-decoration:underline;
+}
+
+li::before {
+    content:"👽";
+}
