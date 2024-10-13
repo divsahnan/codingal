@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    div.relative{
+        position: relative;
+        left:8px;
+        border: 8px solid pink;
+    }
+    div.fixed{
+        position: fixed;
+        left:8px;
+        border: 8px solid pink;
+    }
+    div.absloute{
+        position: absloute;
+        left:8px;
+        border: 8px solid pink;
+    }
+    div.static{
+        position: static;
+        left:8px;
+        border: 8px solid pink;
+    }
+    </style>
+
