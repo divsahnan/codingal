@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope of a variable in a function</title>
+</head>
+<body>
+    <button onclick="function5()">button 5</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        var b=9;
+        function function5(){
+            var c=7;
+            document.getElementById("p1").innerHTML=b*c;
+        }
+        document.getElementById("p2").innerHTML=b;
+        document.getElementById("p2").innerHTML=c;
+    </script>
+</body>
+</html>
