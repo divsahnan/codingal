@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array and maping in JavaScript</title>
+</head>
+<body>
+    <h1>Array and maping in JavaScript</h1>
+    <button onclick="asc()">Sorting</button>
+    <button onclick="desc()">Rever</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        var Numbers=[10,20,40,30];
+        document.getElementById("p1").innerHTML=Numbers;
+        function asc(){
+            Numbers.sort(function(a,b){
+                return a-b;
+            })
+            document.getElementById("p2").innerHTML=Numbers;
+        }
+        function desc(){
+            Numbers.sort(function(a,b){
+                return b-a;
+            })
+            document.getElementById("p3").innerHTML=Numbers;
+        }
+
+    </script>
+</body>
+</html>
